@@ -7,7 +7,7 @@ const SaveTime = () => {
     <div className="SaveTime">
       <div className="SaveTime-text">
         <div className="names ">Save time with Udel</div>
-        <div className="names-sub SaveTimeMargin">
+        <div className="names-sub">
           The fastest and the most reliable way to deliver your ecommerce
           packages.
         </div>

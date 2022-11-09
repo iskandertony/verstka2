@@ -1,4 +1,5 @@
 @import "../../VariableColor.scss";
+@import "../../FontStyle.scss";
 
 .SaveTime {
   display: flex;
@@ -9,11 +10,7 @@
 }
 
 .names {
-  font-family: "Montserrat";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 48px;
-  line-height: 59px;
+  @extend %text-style;
   display: flex;
   align-items: center;
 
@@ -23,21 +20,16 @@
 }
 
 .names-sub {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 24px;
-  line-height: 34px;
+  @extend %text-style-sub;
   display: flex;
   align-items: center;
   color: $color-names-sub;
   width: 528px;
   height: 68px;
-
-  .SaveTimeMargin {
-    margin: 28px 0px 48px 0px;
-  }
+  margin: 28px 0px 48px 0px;
 }
+
+
 
 .SaveTime-text {
   margin-bottom: 155px;
