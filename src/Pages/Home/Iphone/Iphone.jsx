@@ -1,8 +1,8 @@
 import "./Iphone.scss";
-import iphone from "../../Imgs/📱 iPhone/iphone.png";
-import phone from "../../Imgs/Group1.png";
-import phone2 from "../../Imgs/Group2.png";
-import phone3 from "../../Imgs/Group3.png";
+import iphone from "../../../Imgs/📱 iPhone/iphone.png";
+import phone from "../../../Imgs/Group1.png";
+import phone2 from "../../../Imgs/Group2.png";
+import phone3 from "../../../Imgs/Group3.png";
 
 const Iphone = () => {
   return (

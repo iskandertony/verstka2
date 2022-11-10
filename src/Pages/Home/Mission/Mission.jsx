@@ -1,5 +1,5 @@
 import "./Mission.scss"
-import vision from "../../Imgs/vision.png"
+import vision from "../../../Imgs/vision.png"
 
 const Mission = () => {
     return (

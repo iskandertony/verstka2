@@ -1,6 +1,6 @@
 import "./About.scss";
-import phone from "../../Imgs/phone.png";
-import people from "../../Imgs/people.png";
+import phone from "../../../Imgs/phone.png";
+import people from "../../../Imgs/people.png";
 
 const About = () => {
   return (

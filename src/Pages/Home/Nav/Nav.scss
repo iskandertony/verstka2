@@ -1,16 +1,16 @@
-.Nav {
+.nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.Nav-sub {
+.nav-sub {
   display: flex;
   justify-content: row;
   align-items: center;
   margin: 18px 0px;
 
-  .Nav-sub1 {
+  .nav-sub1 {
     margin-right: 40px;
   }
 }

@@ -1,5 +1,5 @@
 import "./Download.scss";
-import ButtonApp from "../../Components/Logo/ButtonApp";
+import ButtonApp from "../../../Components/ButtonApp/ButtonApp";
 
 const DownLoad = () => {
   return (

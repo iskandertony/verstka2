@@ -1,5 +1,5 @@
 import "./Rider.scss";
-import ButtonRider from "../../Components/ButtonRider";
+import ButtonRider from "../../../Components/ButtonRider/ButtonRider";
 
 const Rider = () => {
   return (

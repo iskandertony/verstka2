@@ -1,4 +1,4 @@
-@import "../../FontStyle.scss";
+@import "../../../FontStyle.scss";
 
 .about {
     display: flex;
@@ -21,7 +21,7 @@
 
 .names-sub-about {
     @extend %text-style-sub; 
-    width: 528px;
+    max-width: 528px;
     height: 68px;
     text-align: center;
 }

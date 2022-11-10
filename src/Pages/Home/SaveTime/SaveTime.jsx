@@ -1,5 +1,5 @@
-import SaveTimeImg from "../../Imgs/SaveTimeImg.png";
-import ButtonApp from "../../Components/Logo/ButtonApp";
+import SaveTimeImg from "../../../Imgs/SaveTimeImg.png";
+import ButtonApp from "../../../Components/ButtonApp/ButtonApp";
 import "./SaveTime.scss"
 
 const SaveTime = () => {
@@ -16,7 +16,7 @@ const SaveTime = () => {
         </div>
       </div>
       <div>
-        <div >
+        <div className="saveTime-img">
           <img src={SaveTimeImg} alt="img" />
         </div>
       </div>

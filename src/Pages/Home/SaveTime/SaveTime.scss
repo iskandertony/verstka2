@@ -1,5 +1,5 @@
-@import "../../VariableColor.scss";
-@import "../../FontStyle.scss";
+@import "../../../VariableColor.scss";
+@import "../../../FontStyle.scss";
 
 .saveTime {
   display: flex;
@@ -14,7 +14,7 @@
   display: flex;
   align-items: center;
   color: $color-names;
-  width: 328px;
+  max-width: 328px;
   height: 118px;
 }
 

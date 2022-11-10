@@ -1,5 +1,5 @@
-@import "../../VariableColor.scss";
-@import "../../FontStyle.scss";
+@import "../../../VariableColor.scss";
+@import "../../../FontStyle.scss";
 
 .download-text {
   @extend %text-style;
@@ -8,7 +8,7 @@
 
 .download-text-sub {
   @extend %text-style-sub;
-  width: 528px;
+  max-width: 528px;
   height: 68px;
   color: $color-grey;
   text-align: center;
@@ -24,4 +24,3 @@
   margin-top: 100px;
   background-color: $color-lightgrey;
 }
-
