@@ -1,0 +1,29 @@
+@import "../../FontStyle.scss";
+@import "../../VariableColor.scss";
+
+.mission {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 747px;
+  margin-top: 110px;
+  background-image: url("../../Imgs/section.png");
+}
+
+.mission-sub {
+  @extend %text-style;
+  color: $color-white;
+  margin: 24px 0px;
+}
+
+.mission-text {
+  @extend %text-style-sub;
+  width: 344px;
+  height: 68px;
+  text-align: center;
+  color: $color-white;
+}
+
+
+

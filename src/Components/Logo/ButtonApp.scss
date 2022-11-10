@@ -35,3 +35,17 @@
 .app-img {
   margin: 0px 30px 0px 21px;
 }
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("../../Fonts/Montserrat/Montserrat-Italic-VariableFont_wght.ttf")
+      format("woff2"),
+    url("../../Fonts/Montserrat/Montserrat-Italic-VariableFont_wght.ttf")
+      format("woff");
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../../Fonts/Roboto/Roboto-Black.ttf") format("woff2"),
+    url("../../Fonts/Roboto/Roboto-Black.ttf") format("woff");
+}

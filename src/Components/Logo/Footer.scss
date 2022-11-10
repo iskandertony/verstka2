@@ -1,0 +1,24 @@
+@import "../../VariableColor.scss";
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  background-color: $color-phone;
+  height: 80px;
+}
+
+.footer-text {
+  color: $color-white;
+  margin-left: 390px;
+}
+
+.footer-img {
+  margin-right: 390px;
+  display: flex;
+}
+
+.footer-sub {
+  margin: 0px 12px;
+}

@@ -20,3 +20,12 @@ $color-white: white;
   height: 56px;
   background: linear-gradient(180deg, #0083e2 0%, #005dca 100%);
 }
+
+
+
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../Fonts/Roboto/Roboto-Black.ttf") format("woff2"),
+    url("../Fonts/Roboto/Roboto-Black.ttf") format("woff");
+}

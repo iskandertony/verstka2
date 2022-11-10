@@ -1,8 +1,7 @@
+import "./LoginNav.scss";
 
 const LoginNav = () => {
-    return (
-        <div>Login</div>
-    )
-}
+  return <div className="login">Login</div>;
+};
 
-export default LoginNav
+export default LoginNav;

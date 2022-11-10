@@ -4,8 +4,8 @@ import "./SaveTime.scss"
 
 const SaveTime = () => {
   return (
-    <div className="SaveTime">
-      <div className="SaveTime-text">
+    <div className="saveTime">
+      <div className="saveTime-text">
         <div className="names ">Save time with Udel</div>
         <div className="names-sub">
           The fastest and the most reliable way to deliver your ecommerce

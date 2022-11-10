@@ -1,0 +1,16 @@
+.login {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  color: #0e1e29;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../Fonts/Roboto/Roboto-Black.ttf") format("woff2"),
+    url("../Fonts/Roboto/Roboto-Black.ttf") format("woff");
+}
