@@ -1,0 +1,117 @@
+@import "../../VariableColor.scss";
+@import "../../FontStyle.scss";
+
+.registrationPage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: row;
+  background-image: url("../../Imgs/login2x.png");
+  height: 957px;
+}
+
+.registrationBox {
+  width: 365px;
+  height: 576px;
+  padding: 26px;
+  background-color: $color-white;
+  border-radius: 3px;
+  .hr {
+    width: 360px;
+    margin: 24px 0px;
+  }
+
+  .registration-chose {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  .registration-name {
+    @extend %text-style-14px;
+    margin-top: 40px;
+    margin-bottom: 8px;
+    color: $color-999;
+  }
+
+  .blank {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    .blank-img {
+      margin-right: 15px;
+    }
+  }
+
+  .margin1 {
+    margin: 15px 0px;
+  }
+
+  .margin2 {
+    margin-bottom: 15px;
+  }
+  .registrationPage-sub {
+    display: flex;
+    justify-content: flex-start;
+  }
+  .createAccount {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 40px 0px 30px 0px;
+    height: 41px;
+    background: $color-blue;
+    box-shadow: 0px 2px 2px rgba(156, 39, 176, 0.2);
+    border-radius: 30px;
+    @extend %text-style-12px;
+    text-align: center;
+
+    color: $color-white;
+  }
+}
+
+.registrationBig {
+  margin: 0px 50px;
+  @extend %text-style-sub;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  color: $color-blue;
+  width: 324px;
+  height: 66px;
+  background: #ececec;
+  box-shadow: 0px 4px 25px rgba(134, 134, 134, 0.12);
+  border-radius: 3px;
+}
+
+.input {
+  width: 269px;
+  height: 27px;
+  border-top: $color-white;
+  border-left: $color-white;
+  border-right: $color-white;
+}
+
+.registration-logIn {
+  @extend %text-style-18px;
+  color: $color-blue;
+}
+
+.registrationBox-sub {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.createAccount-sub {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  @extend %text-style-18px;
+  color: $color-names;
+  height: 48px;
+}

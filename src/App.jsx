@@ -7,6 +7,9 @@ import Iphone from "./Pages/Home/Iphone/Iphone";
 import DownLoad from "./Pages/Home/DownLoad/Download";
 import Rider from "./Pages/Home/Rider/Rider";
 import Footer from "./Components/Logo/Footer";
+import Registration from "./Pages/Registration/Registration";
+import Login from "./Pages/Login/Login";
+import Driver from "./Pages/Driver/Driver";
 
 function App() {
   return (
@@ -14,6 +17,11 @@ function App() {
       <div>
         <Nav />
         <SaveTime />
+      </div>
+      <div>
+        <Login></Login>
+        <Registration></Registration>
+        <Driver></Driver>
       </div>
       <div className="appAbout">
         <About />
@@ -30,6 +38,7 @@ function App() {
       <div className="appRider">
         <Rider />
       </div>
+
       <div>
         <Footer />
       </div>

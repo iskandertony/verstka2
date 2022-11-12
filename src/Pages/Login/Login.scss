@@ -1,0 +1,68 @@
+@import "../../FontStyle.scss";
+@import "../../VariableColor.scss";
+
+.login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-image: url("../../Imgs/login2x.png");
+  height: 959px;
+  text-align: center;
+
+  .login-name {
+    width: 324px;
+    height: 66px;
+    background: $color-notwhite;
+    box-shadow: 0px 4px 25px rgba(134, 134, 134, 0.12);
+    border-radius: 3px;
+    @extend %text-style-sub;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: $color-blue;
+  }
+
+  .loginBox {
+    width: 365px;
+    height: 348px;
+    background: $color-white;
+    border-radius: 3px;
+    padding: 26px;
+  }
+
+  .loginBox-sub {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+  }
+
+  .loginButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: $color-blue;
+    box-shadow: 0px 2px 2px rgba(156, 39, 176, 0.2);
+    border-radius: 30px;
+    height: 41px;
+
+    @extend %text-style-12px;
+    text-align: center;
+
+    color: $color-white;
+    margin-top: 40px;
+    margin-bottom: 32px;
+  }
+
+  .loginBlank {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .loginBlank-img {
+    margin-right: 15px;
+  }
+}
