@@ -1,15 +1,94 @@
+@import "./VariableColor.scss";
+
 %text-style {
-    font-family: "Montserrat";
+  font-family: "Montserrat";
   font-style: normal;
-  font-weight: 700;
+  font-weight: 600;
   font-size: 48px;
   line-height: 59px;
+  color: $color-phone;
 }
 
 %text-style-sub {
-    font-family: "Roboto";
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
   font-size: 24px;
   line-height: 34px;
+  $color-grey: #40494f;
+}
+
+%text-style-phone {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 20px;
+  color: $color-phone;
+}
+
+%text-style-phone-sub {
+  max-width: 222px;
+  height: 53px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+
+  color: $color-phone;
+}
+
+%text-style-36px {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 44px;
+}
+
+%text-style-22px {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 31px;
+}
+
+%text-style-18px {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+%text-style-12px {
+  font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+}
+
+%text-style-14px {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("./Fonts/Montserrat/Montserrat-VariableFont_wght.ttf")
+      format("woff2"),
+    url("./Fonts/Montserrat/Montserrat-VariableFont_wght.ttf") format("woff");
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("./Fonts/Roboto/Roboto-Black.ttf") format("woff2"),
+    url("./Fonts/Roboto/Roboto-Black.ttf") format("woff");
 }

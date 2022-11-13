@@ -1,0 +1,24 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-sub {
+  display: flex;
+  justify-content: row;
+  align-items: center;
+  margin: 18px 0px;
+
+  .nav-sub1 {
+    margin-right: 40px;
+  }
+}
+
+.marginLeft {
+  margin-left: 390px;
+}
+
+.marginRight {
+  margin-right: 390px;
+}

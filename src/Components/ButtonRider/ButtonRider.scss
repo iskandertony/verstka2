@@ -1,0 +1,14 @@
+@import "../../VariableColor.scss";
+@import "../../FontStyle.scss";
+
+.Buttonrider {
+  width: 249px;
+  height: 80px;
+  background: $color-white;
+  border-radius: 42px;
+  @extend %text-style-sub;
+  color: $color-phone;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

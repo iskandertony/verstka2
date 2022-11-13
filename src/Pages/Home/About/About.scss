@@ -1,0 +1,33 @@
+@import "../../../FontStyle.scss";
+
+.about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-img {
+   
+    text-align: center;
+}
+
+
+.names-about {
+    margin: 24px 0px;
+    @extend %text-style;
+    text-align: center;
+}
+
+
+.names-sub-about {
+    @extend %text-style-sub; 
+    max-width: 528px;
+    height: 68px;
+    text-align: center;
+}
+.about-img-sub {
+    margin-right: 26px;
+    margin-top: 111px;
+}
+
+

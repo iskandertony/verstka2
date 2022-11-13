@@ -1,0 +1,33 @@
+@import "../../../VariableColor.scss";
+@import "../../../FontStyle.scss";
+
+.saveTime {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  background: $background-color-saveTime;
+  height: 728px;
+}
+
+.names {
+  @extend %text-style;
+  display: flex;
+  align-items: center;
+  color: $color-names;
+  max-width: 328px;
+  height: 118px;
+}
+
+.names-sub {
+  @extend %text-style-sub;
+  display: flex;
+  align-items: center;
+  $color-grey: #40494f;
+  width: 528px;
+  height: 128px;
+  margin: 28px 0px 48px 0px;
+}
+
+.saveTime-text {
+  margin-bottom: 155px;
+}

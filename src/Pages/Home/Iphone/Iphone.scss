@@ -1,0 +1,35 @@
+@import "../../../VariableColor.scss";
+@import "../../../FontStyle.scss";
+
+.phone {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.phone-name {
+  @extend %text-style;
+}
+.phone-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+.phone-sub {
+  @extend %text-style-phone;
+  margin-bottom: 15px;
+}
+
+.phone-sub-text {
+  @extend %text-style-phone-sub;
+}
+
+.phone-img {
+  margin-right: 24px;
+}
+
+.iphone {
+  margin-left: 122px;
+  margin-top: 100px;
+}
