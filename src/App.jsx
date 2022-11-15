@@ -11,6 +11,19 @@ import Registration from "./Pages/Registration/Registration";
 import Login from "./Pages/Login/Login";
 import Driver from "./Pages/Driver/Driver";
 
+import {
+  createBrowserRouter,
+  RouterProvider,
+  Route,
+} from "react-router-dom";
+
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <div>Hello world!</div>,
+  },
+]);
+
 function App() {
   return (
     <div className="App">
@@ -44,6 +57,12 @@ function App() {
       </div>
     </div>
   );
+}
+
+function text() {
+  return (
+    <div><Registration/></div>
+  )
 }
 
 export default App;
