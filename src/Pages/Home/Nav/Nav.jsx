@@ -8,18 +8,19 @@ import { Routes, Route, Link } from "react-router-dom";
 const Nav = () => {
   return (
     <div className="nav">
-      <Routes>
-        <Route path="registration" element={<Registration />} />
-      </Routes>
       <div className="nav-sub marginLeft">
-        <IconNav />
+        <Link to="/">
+          <IconNav />
+        </Link>
       </div>
       <div className="nav-sub marginRight">
         <div className="nav-sub1">
           <LoginNav />
         </div>
         <div>
-          <RegistrationNav />
+          <Link to="registration">
+            <RegistrationNav />
+          </Link>
         </div>
       </div>
     </div>

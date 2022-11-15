@@ -10,7 +10,9 @@ const Registration = () => {
         <div>
           <img src={udel} alt="" />
         </div>
-        <div className="registrationBig">Registration</div>
+        <div className="registration-title">
+          <div className="registrationBig">Registration</div>
+        </div>
 
         <div className="registrationBox">
           <div className="registrationBox-sub">

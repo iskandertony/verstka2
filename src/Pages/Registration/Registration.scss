@@ -72,19 +72,27 @@
   }
 }
 
-.registrationBig {
-  margin: 0px 50px;
-  @extend %text-style-sub;
+.registration-title {
   display: flex;
-  align-items: center;
-  text-align: center;
   justify-content: center;
-  color: $color-blue;
-  width: 324px;
-  height: 66px;
-  background: #ececec;
-  box-shadow: 0px 4px 25px rgba(134, 134, 134, 0.12);
-  border-radius: 3px;
+  
+  .registrationBig {
+    @extend %text-style-sub;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+    color: $color-blue;
+    height: 66px;
+    background: #ececec;
+    box-shadow: 0px 4px 25px rgba(134, 134, 134, 0.12);
+    border-radius: 3px;
+    padding: 0 40px;
+
+
+  }
+  
 }
 
 .input {
