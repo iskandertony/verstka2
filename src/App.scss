@@ -1,10 +1,13 @@
+@import "./FontStyle.scss";
+
 .App {
   padding: 0;
   margin: 0;
+  text-decoration: none;
 }
 
 /* ADAPTATION */
-@media (max-width: 1200px) {
+@media (max-width: 1300px) {
   .App {
     margin: 0;
     padding: 0;
@@ -45,16 +48,72 @@
       display: none;
     }
   }
+
+  .driver-text-sub1 {
+    margin-left: 190px !important;
+  }
+
+  .driver-text-sub2 {
+    margin-left: 190px;
+  }
+
+  .footer {
+    padding: 0px 20px;
+  }
+  .footer-text {
+    color: $color-white;
+    margin-left: 0px;
+  }
+
+  .footer-img {
+    margin-right: 20px;
+    display: flex;
+  }
 }
 
-@media (max-width: 780px) {
+@media (max-width: 510px) {
+  .nav {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .saveTime {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-height: 400px;
+    .saveTime-text {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 75px;
+      .names {
+        max-width: 300px;
+        height: 200px;
+      }
+      .names-sub {
+        display: none;
+      }
+    }
+  }
+
+  .mission {
+    max-height: 547px;
+  }
+  .download {
+    .download-text {
+      max-width: 250px;
+    }
+  }
+}
+
+@media (max-width: 880px) {
   .phone {
     margin-top: 100px;
     .iphone {
       display: none;
     }
   }
-
   .footer {
     display: flex;
     justify-content: space-between;
@@ -67,70 +126,89 @@
       margin-right: 20px;
     }
   }
+}
 
-  @media (max-width: 490px) {
-    .nav {
-      flex-wrap: wrap;
-      justify-content: center;
-      align-items: center;
-    }
-
-    .about {
-        
-    }
-
-    .saveTime {
+@media (max-width: 500px) {
+  .marginRight {
+    margin: 10px;
+  }
+  .download {
+    padding: 0px 10px;
+    .download-text {
       display: flex;
       justify-content: center;
       align-items: center;
-      max-height: 400px;
-      .saveTime-text {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-bottom: 75px;
-
-        .names {
-          max-width: 300px;
-          height: 200px;
-        }
-
-        .names-sub {
-          display: none;
-        }
-      }
+      font-family: "Montserrat";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 36px;
+      line-height: 44px;
+      width: 400px;
     }
 
-    .mission {
-      max-height: 547px;
-    }
-
-    .download {
-      .download-text {
-        max-width: 250px;
-      }
+    .download-text-sub {
+      height: 100px;
     }
   }
 
-  @media (max-width: 340px) {
-    .appRider {
-      display: none;
-    }
+  .mission {
+    padding: 10px;
+  }
 
-    .appDownload {
-      display: none;
-    }
+  .about {
+    padding: 10px;
+  }
 
-    .appMission {
-      display: none;
-    }
+  .rider {
+    padding: 0px 10px;
 
-    .appAbout {
-      display: none;
-    }
-
-    .phone {
-      margin-top: 20px;
+    .rider-text-sub {
+      margin-top: 0px;
     }
   }
+  .phone {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    padding: 0px 10px;
+
+    .phone-name {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+  .rider-text {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+  }
+  .registrationBox {
+    padding: 0px 10px;
+    width: 232px;
+  }
+  .login {
+    .login-name {
+      max-width: 224px;
+    }
+    .loginBox {
+      max-width: 225px;
+    }
+  }
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("./Fonts/Montserrat/Montserrat-VariableFont_wght.ttf")
+      format("woff2"),
+    url("./Fonts/Montserrat/Montserrat-VariableFont_wght.ttf") format("woff");
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("./Fonts/Roboto/Roboto-Black.ttf") format("woff2"),
+    url("./Fonts/Roboto/Roboto-Black.ttf") format("woff");
 }

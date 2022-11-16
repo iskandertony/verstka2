@@ -37,6 +37,7 @@
     align-items: flex-start;
     justify-content: flex-start;
     flex-direction: column;
+    margin-top: 50px;
   }
 
   .loginButton {
@@ -60,6 +61,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+
+  .login-blank-margin {
+    margin-top: 25px;
   }
 
   .loginBlank-img {

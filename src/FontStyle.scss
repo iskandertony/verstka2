@@ -66,10 +66,10 @@
 
 %text-style-12px {
   font-family: "Roboto";
-    font-style: normal;
-    font-weight: 500;
-    font-size: 12px;
-    line-height: 14px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
 }
 
 %text-style-14px {
@@ -78,6 +78,14 @@
   font-weight: 400;
   font-size: 14px;
   line-height: 16px;
+}
+
+%text-style-20px {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
 }
 
 @font-face {
@@ -89,6 +97,6 @@
 
 @font-face {
   font-family: "Roboto";
-  src: url("./Fonts/Roboto/Roboto-Black.ttf") format("woff2"),
-    url("./Fonts/Roboto/Roboto-Black.ttf") format("woff");
+  src: url("./Fonts/Roboto/Roboto-Light.ttf") format("woff2"),
+    url("./Fonts/Roboto/Roboto-Light.ttf") format("woff");
 }

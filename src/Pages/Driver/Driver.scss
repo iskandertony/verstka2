@@ -3,16 +3,7 @@
 
 .driver {
   display: flex;
-
   flex-direction: column;
-
-  .driver-img {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    margin-left: 420px;
-    height: 92px;
-  }
 
   .driver-text {
     display: flex;
@@ -21,28 +12,7 @@
     background-image: url("../../Imgs/rider.png");
     height: 780px;
     flex-direction: column;
-
     margin-bottom: 80px;
-  }
-
-  .driver-text-sub1 {
-    @extend %text-style;
-    display: flex;
-    align-items: center;
-    margin-left: 420px;
-    width: 620px;
-    color: $color-white;
-    margin-bottom: 40px;
-  }
-
-  .driver-text-sub2 {
-    @extend %text-style-sub;
-    width: 344px;
-    height: 79px;
-    margin-left: 420px;
-    display: flex;
-    align-items: center;
-    color: $color-white;
   }
 
   .driver-info {
@@ -121,4 +91,24 @@
     align-items: center;
     margin-bottom: 200px;
   }
+}
+
+.driver-text-sub1 {
+  @extend %text-style;
+  display: flex;
+  align-items: center;
+  margin-left: 390px;
+  width: 620px;
+  color: $color-white;
+  margin-bottom: 40px;
+}
+
+.driver-text-sub2 {
+  @extend %text-style-sub;
+  width: 344px;
+  height: 79px;
+  margin-left: 390px;
+  display: flex;
+  align-items: center;
+  color: $color-white;
 }

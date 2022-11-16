@@ -17,8 +17,10 @@
   padding: 26px;
   background-color: $color-white;
   border-radius: 3px;
+
   .hr {
-    width: 360px;
+    border-bottom: 1px solid $color-hr;
+    max-width: 360px;
     margin: 24px 0px;
   }
 
@@ -31,6 +33,7 @@
     @extend %text-style-14px;
     margin-top: 40px;
     margin-bottom: 8px;
+    margin-left: 5px;
     color: $color-999;
   }
 
@@ -72,27 +75,31 @@
   }
 }
 
-.registrationBig {
-  margin: 0px 50px;
-  @extend %text-style-sub;
+.registration-title {
   display: flex;
-  align-items: center;
-  text-align: center;
   justify-content: center;
-  color: $color-blue;
-  width: 324px;
-  height: 66px;
-  background: #ececec;
-  box-shadow: 0px 4px 25px rgba(134, 134, 134, 0.12);
-  border-radius: 3px;
+  .registration-big {
+    @extend %text-style-sub;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: $color-blue;
+    height: 66px;
+    background: #ececec;
+    box-shadow: 0px 4px 25px rgba(134, 134, 134, 0.12);
+    border-radius: 3px;
+    padding: 0 60px;
+  }
 }
 
 .input {
-  width: 269px;
+  max-width: 269px;
   height: 27px;
   border-top: $color-white;
   border-left: $color-white;
   border-right: $color-white;
+  border-color: $color-hr;
 }
 
 .registration-logIn {
@@ -114,4 +121,12 @@
   @extend %text-style-18px;
   color: $color-names;
   height: 48px;
+}
+
+.udel-top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #232d34;
+  padding: 10px 0px;
 }

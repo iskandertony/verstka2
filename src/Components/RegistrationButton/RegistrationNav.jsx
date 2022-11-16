@@ -1,9 +1,11 @@
-import "./RegistrationNav.scss"
+import "./RegistrationNav.scss";
 
 const Registration = () => {
-    return (
-        <div className="RegistrationNav">Registration</div>
-    )
-}
+  return (
+    <div >
+      <div className="RegistrationNav">Registration</div>
+    </div>
+  );
+};
 
-export default Registration
+export default Registration;

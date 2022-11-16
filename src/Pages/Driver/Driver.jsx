@@ -3,19 +3,17 @@ import car from "../../Imgs/car.png";
 import smile from "../../Imgs/smile.png";
 import money from "../../Imgs/money.png";
 import rocket from "../../Imgs/rocket.png";
-import udel from "../../Imgs/iconNav.png";
 import Footer from "../../Components/Logo/Footer";
 import ButtonApp from "../../Components/ButtonApp/ButtonApp";
+import Nav from "../Home/Nav/Nav";
 
 const Driver = () => {
   return (
     <div className="driver">
-      <div className="driver-img">
-        <img src={udel} alt="" />
-      </div>
+      <Nav></Nav>
       <div className="driver-text">
         <div className="driver-text-sub1">
-          Become a Driver and make good money 💵
+          Become a Driver and make good money
         </div>
         <div className="driver-text-sub2">
           To get started, just register and follow easy steps.

@@ -19,11 +19,10 @@
 
 .mission-text {
   @extend %text-style-sub;
-  width: 344px;
+  max-width: 344px;
   height: 68px;
   text-align: center;
   color: $color-white;
 }
-
 
 

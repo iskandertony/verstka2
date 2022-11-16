@@ -8,7 +8,7 @@ const Iphone = () => {
   return (
     <div className="phone">
       <div>
-        <div className="phone-name">Featrures</div>
+        <div className="phone-name">Features</div>
         <div className="phone-box">
           <div className="phone-img">
             <img src={phone} alt="" />
